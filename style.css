@@ -1,17 +1,243 @@
 @import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Style+Script&display=swap');
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-    .sec{
-        min-height: 100vh;
-        background-size: cover;
-        background-color: #F99501;
-        background-repeat: no-repeat;
-        background-image: url("./diwali/images/orange-backdrop\ 1.png");
+body {
+    background-color: #f7a901;
+}
+
+.sec {
+    min-height: 100vh;
+    background-size: cover;
+    /* background-color: #F99501; */
+    background-repeat: no-repeat;
+    background-image: url("./images/orangeBg.png");
+
+}
+
+.textAudio {
+    font-size: 46px;
+    font-family: 'style script';
+    max-width: 550px;
+    margin-left: 15rem;
+}
+
+audio::-webkit-media-controls-play-button,
+audio::-webkit-media-controls-panel {
+    background-color: #FBD8A4;
+    color: #000;
+}
+
+.ss {
+    width: 30px;
+}
+
+.soul {
+    font-size: 20px;
+}
+
+.audio {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 45px;
+    background-color: #FBD8A4;
+    width: min-content;
+    padding-left: 20px;
+}
+
+audio {
+    padding-left: -100px;
+}
+
+.soul {
+    width: max-content;
+    padding: 0 5px;
+}
+
+.msg {
+    color: black;
+}
+
+.bar {
+    width: 40px;
+    padding-left: 10px;
+}
+
+.jhalar {
+    width: 230px;
+    margin-bottom: -150px;
+}
+
+.ganeshji {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.ganeshji>img {
+    max-width: 60vw;
+    margin-bottom: 10px;
+}
+
+.ganeshji>p {
+    font-size: 54px;
+    font-family: 'style script';
+}
+
+.lines {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.line {
+    width: 50vw;
+}
+
+.girlt {
+    display: flex;
+}
+
+.girl {
+    max-width: 320px;
+    height: auto;
+}
+
+@media (max-width:840px) {
+    .sec {
+        width: auto;
     }
-    .msg{
-        font-size: 46px;
+
+    .textAudio {
+        margin-left: 0;
     }
+
+    .audio {
+        /* display: none; */
+        max-width: 90vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .soul,
+    .bar {
+        display: none;
+    }
+
+    .jhalar {
+        width: 180px;
+        margin-bottom: -30px;
+    }
+
+    .firstd {
+        display: block;
+        margin-left: auto;
+        width: 200px;
+    }
+
+    .msg {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .secondd {
+        display: none;
+    }
+
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black; */
+}
+
+.whitebox>p {
+    font-size: 32px;
+}
+
+.whitebox {
+    background-color: white;
+    width: 40vw;
+    padding: 90px;
+    border-radius: 20px;
+    padding-right: 60px;
+}
+
+p1,
+p2 {
+    font-weight: bold;
+}
+
+.girl {
+    max-width: 250px;
+    margin-left: -100px;
+}
+
+.i1,
+.i2 {
+    width: 25vw;
+}
+
+.boxg {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+    position: relative;
+
+}
+
+.whiteboxg {
+    background-color: white;
+    width: 60vw;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.t1 {
+    position: absolute;
+    left: 280px;
+    bottom: 100px;
+    font-size: 20px;
+    padding: 10px;
+        left: 197px;
+    bottom: -48px;
+}
+
+.t2 {
+    position: absolute;
+        left: 181px;
+    bottom: -150px;
+    font-size: 60px;
+    font-family: 'style script';
+    padding: 10px;
+}
+.footer-credit {
+    position: absolute;   /* Isse ye screen par fix ho jayega */
+    bottom: 20px;      /* Niche se 20px ka gap */
+    right: 20px;       /* Right side se 20px ka gap */
+    font-size: 14px;
+    font-family: Arial, sans-serif; /* Ya koi bhi simple font */
+    color: #333;
+    font-weight: bold;
+    z-index: 9999;     /* Taaki ye baki elements ke upar dikhe */
+}
