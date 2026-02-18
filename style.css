@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Style+Script&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -10,4 +11,7 @@
         background-color: #F99501;
         background-repeat: no-repeat;
         background-image: url("./diwali/images/orange-backdrop\ 1.png");
+    }
+    .msg{
+        font-size: 46px;
     }
