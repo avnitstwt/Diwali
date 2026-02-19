@@ -8,6 +8,7 @@
 
 body {
     background-color: #f7a901;
+    position: relative;
 }
 
 .sec {
@@ -45,6 +46,7 @@ audio::-webkit-media-controls-panel {
     margin: 0 auto;
     align-items: center;
     justify-content: center;
+    margin-left: -10px;
     gap: 5px;
     border-radius: 45px;
     background-color: #FBD8A4;
@@ -213,31 +215,30 @@ p2 {
 
 }
 
-.t1 {
-    position: absolute;
-    left: 280px;
-    bottom: 100px;
+.t1{
+    padding-top: 20px;
     font-size: 20px;
-    padding: 10px;
-        left: 197px;
-    bottom: -48px;
 }
 
-.t2 {
-    position: absolute;
-        left: 181px;
-    bottom: -150px;
-    font-size: 60px;
+.t2{
+    padding-top: 20px;
+    font-size: 45px;
+    padding-left: 5px;
     font-family: 'style script';
-    padding: 10px;
 }
 .footer-credit {
-    position: absolute;   /* Isse ye screen par fix ho jayega */
-    bottom: 20px;      /* Niche se 20px ka gap */
-    right: 20px;       /* Right side se 20px ka gap */
-    font-size: 14px;
-    font-family: Arial, sans-serif; /* Ya koi bhi simple font */
-    color: #333;
-    font-weight: bold;
-    z-index: 9999;     /* Taaki ye baki elements ke upar dikhe */
+    text-align: right;
+    padding: 10px;
+}
+.cen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.thanks{
+    width: 60vw;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
 }
