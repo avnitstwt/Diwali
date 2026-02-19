@@ -114,49 +114,6 @@ audio {
     height: auto;
 }
 
-@media (max-width:840px) {
-    .sec {
-        width: auto;
-    }
-
-    .textAudio {
-        margin-left: 0;
-    }
-
-    .audio {
-        /* display: none; */
-        max-width: 90vw;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .soul,
-    .bar {
-        display: none;
-    }
-
-    .jhalar {
-        width: 180px;
-        margin-bottom: -30px;
-    }
-
-    .firstd {
-        display: block;
-        margin-left: auto;
-        width: 200px;
-    }
-
-    .msg {
-        font-size: 30px;
-        padding: 20px;
-    }
-
-    .secondd {
-        display: none;
-    }
-
-}
 
 .box {
     width: 100%;
@@ -201,7 +158,7 @@ p2 {
     margin-top: 20px;
     flex-direction: column;
     position: relative;
-
+    
 }
 
 .whiteboxg {
@@ -212,7 +169,7 @@ p2 {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 }
 
 .t1{
@@ -242,3 +199,56 @@ p2 {
     /* align-items: center; */
     flex-direction: column;
 }
+    @media (max-width:840px) {
+        .sec {
+            width: auto;
+        }
+    
+        .textAudio {
+            margin-left: 0;
+        }
+    
+        .audio {
+            /* display: none; */
+            max-width: 90vw;
+            /* margin-left: 10px; */
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+    .ganeshji>img{
+        /* width: 90vw; */
+        max-width: 90vw;
+    }
+
+        .soul,
+        .bar {
+            display: none;
+        }
+    
+        .jhalar {
+            width: 180px;
+            margin-bottom: -30px;
+        }
+    
+        .firstd {
+            display: block;
+            margin-left: auto;
+            width: 200px;
+        }
+    
+        .msg {
+            font-size: 30px;
+            padding: 20px;
+        }
+    
+        .secondd {
+            display: none;
+        }
+    
+        .sec{
+                min-height: 50vh;
+        }
+    }
