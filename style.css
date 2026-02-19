@@ -158,7 +158,11 @@ p2 {
     margin-top: 20px;
     flex-direction: column;
     position: relative;
-    
+
+}
+
+.hid {
+    display: none;
 }
 
 .whiteboxg {
@@ -169,86 +173,158 @@ p2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+
 }
 
-.t1{
+.t1 {
     padding-top: 20px;
     font-size: 20px;
 }
 
-.t2{
+.t2 {
     padding-top: 20px;
     font-size: 45px;
     padding-left: 5px;
     font-family: 'style script';
 }
+
 .footer-credit {
     text-align: right;
     padding: 10px;
 }
-.cen{
+
+.cen {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-.thanks{
+
+.thanks {
     width: 60vw;
     display: flex;
     /* justify-content: center; */
     /* align-items: center; */
     flex-direction: column;
 }
-    @media (max-width:840px) {
-        .sec {
-            width: auto;
-        }
-    
-        .textAudio {
-            margin-left: 0;
-        }
-    
-        .audio {
-            /* display: none; */
-            max-width: 90vw;
-            /* margin-left: 10px; */
-            margin: 0 auto;
-            display: flex;
-            align-items: center;
-            justify-content: center;
 
-        }
-    .ganeshji>img{
+@media (max-width:840px) {
+    .sec {
+        width: auto;
+    }
+
+    .textAudio {
+        margin-left: 0;
+    }
+
+    .audio {
+        /* display: none; */
+        max-width: 90vw;
+        /* margin-left: 10px; */
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .ganeshji>img {
         /* width: 90vw; */
         max-width: 90vw;
+
     }
 
-        .soul,
-        .bar {
-            display: none;
-        }
-    
-        .jhalar {
-            width: 180px;
-            margin-bottom: -30px;
-        }
-    
-        .firstd {
-            display: block;
-            margin-left: auto;
-            width: 200px;
-        }
-    
-        .msg {
-            font-size: 30px;
-            padding: 20px;
-        }
-    
-        .secondd {
-            display: none;
-        }
-    
-        .sec{
-                min-height: 50vh;
-        }
+    .ganeshji>p {
+        font-size: 35px;
+        text-align: center;
     }
+
+    .hid {
+        display: contents;
+    }
+
+    .soul,
+    .bar {
+        display: none;
+    }
+
+    .jhalar {
+        width: 180px;
+        margin-bottom: -30px;
+    }
+
+    .firstd {
+        display: block;
+        margin-left: auto;
+        width: 200px;
+    }
+
+    .msg {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .secondd {
+        display: none;
+    }
+
+    .sec {
+        min-height: 50vh;
+    }
+
+    .box {
+        height: 40vh;
+        /* background-color: red; */
+        padding: 20px;
+    }
+
+    .whitebox {
+        height: 30vh;
+        margin: 0 auto;
+        width: 70vw;
+        padding: 20px;
+    }
+
+    .girl {
+        width: 30vw;
+        margin-left: -30px;
+    }
+
+    .whitebox>p {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .whiteboxg {
+        width: 90vw;
+        background-color: red;
+    }
+
+    .boxg {
+        width: 100%;
+
+    }
+
+    .i1,
+    .i2 {
+        width: 40vw;
+    }
+    .thanks{
+        padding: 0;
+    }
+    .cen{
+        padding-left: 20px;
+        justify-content: flex-start;
+}
+.t1{
+    /* padding-left: 0; */
+    text-align: left;
+    font-size: 14px;
+}
+.t2{
+    font-size: 24px;
+    width: max-content;
+}
+.hir{
+    display: none;
+}
+}
